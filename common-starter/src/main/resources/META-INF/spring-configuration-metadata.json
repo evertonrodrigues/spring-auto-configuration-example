@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "common.feature.one.config",
+      "type": "com.cajalab.commonstarter.autoconfigure.feature.one.FeatureOneProperties",
+      "sourceType": "com.cajalab.commonstarter.autoconfigure.feature.one.FeatureOneProperties"
+    },
+    {
+      "name": "common.feature.two.config",
+      "type": "com.cajalab.commonstarter.autoconfigure.feature.two.FeatureTwoProperties",
+      "sourceType": "com.cajalab.commonstarter.autoconfigure.feature.two.FeatureTwoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "common.feature.one.config.value",
+      "type": "java.lang.String",
+      "description": "Property one description example.",
+      "sourceType": "com.cajalab.commonstarter.autoconfigure.feature.one.FeatureOneProperties",
+      "defaultValue": "default"
+    },
+    {
+      "name": "common.feature.two.config.value",
+      "type": "java.lang.String",
+      "description": "Property two description example.",
+      "sourceType": "com.cajalab.commonstarter.autoconfigure.feature.two.FeatureTwoProperties",
+      "defaultValue": "default"
+    }
+  ]
+}
