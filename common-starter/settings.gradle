@@ -1,2 +1,0 @@
-rootProject.name = 'common-starter'
-includeFlat 'common-feature-one', 'common-feature-two'

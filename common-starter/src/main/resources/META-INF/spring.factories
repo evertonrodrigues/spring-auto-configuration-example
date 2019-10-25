@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.cajalab.commonstarter.autoconfigure.feature.one.FeatureOneAutoConfiguration, \
-com.cajalab.commonstarter.autoconfigure.feature.two.FeatureTwoAutoConfiguration

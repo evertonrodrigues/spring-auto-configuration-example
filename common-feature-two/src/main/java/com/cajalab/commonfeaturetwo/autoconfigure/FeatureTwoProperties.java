@@ -1,4 +1,4 @@
-package com.cajalab.commonstarter.autoconfigure.feature.two;
+package com.cajalab.commonfeaturetwo.autoconfigure;
 
 import lombok.Getter;
 import lombok.Setter;

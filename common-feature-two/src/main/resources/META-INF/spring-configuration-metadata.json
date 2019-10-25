@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "common.feature.two.config",
+      "type": "com.cajalab.commonfeaturetwo.autoconfigure.FeatureTwoProperties",
+      "sourceType": "com.cajalab.commonfeaturetwo.autoconfigure.FeatureTwoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "common.feature.two.config.value",
+      "type": "java.lang.String",
+      "description": "Property two description example.",
+      "sourceType": "com.cajalab.commonfeaturetwo.autoconfigure.FeatureTwoProperties",
+      "defaultValue": "default"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "common.feature.one.config",
+      "type": "com.cajalab.commonfeatureone.autoconfigure.FeatureOneProperties",
+      "sourceType": "com.cajalab.commonfeatureone.autoconfigure.FeatureOneProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "common.feature.one.config.value",
+      "type": "java.lang.String",
+      "description": "Property one description example.",
+      "sourceType": "com.cajalab.commonfeatureone.autoconfigure.FeatureOneProperties",
+      "defaultValue": "default"
+    }
+  ]
+}

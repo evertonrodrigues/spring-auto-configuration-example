@@ -1,4 +1,4 @@
-package com.cajalab.commonfeaturetwo;
+package com.cajalab.commonfeatureone.service;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -9,15 +9,15 @@ import javax.annotation.PostConstruct;
 
 @Service
 @Slf4j
-public class FeatureTwoService {
+public class FeatureOneService {
 
     @Getter
-    @Value("${common.feature.two.service.value:default}")
+    @Value("${common.feature.one.service.value:default}")
     private String value;
 
     @PostConstruct
     public void setup() {
-        log.info("FeatureTwoService.value=" + value);
+        log.info("FeatureOneService.value=" + value);
     }
 
 }
